@@ -74,7 +74,7 @@ function addEvents(){
 			
 			var random = Math.round(Math.random() * 255);
 
-			color += random; //random is a var instead of a string
+			color += random; //random is a var instead of a "string"
 
 			if (i<2){
 				color += ",";
@@ -94,9 +94,6 @@ function addEvents(){
 	});
 
 };
-
-
-
 
 //call the initialize function when the document has loaded
 $(document).ready(initialize);
